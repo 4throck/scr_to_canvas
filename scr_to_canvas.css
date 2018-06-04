@@ -1,0 +1,69 @@
+/* CSS Document */
+body {
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 18px;
+	background-color: #111;
+	color: #080;
+	text-align: center;
+	text-transform: uppercase;
+	background-image: url(crt.png);
+	background-repeat: repeat;
+}
+a:link, a:visited{
+    color: #080;
+	font-weight:normal;
+}
+
+input {	
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 18px;
+	background-color: #080;
+	color: #111;
+	text-align: center;
+	text-transform: uppercase;
+	
+	}
+
+a:hover, a:active {
+    color: #888;
+	font-weight:normal;
+}
+
+
+
+
+canvas {
+	background-color: #999;
+	-webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.75);
+}
+.text-block {
+	max-width: 640px;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+.pixelated {
+  image-rendering:optimizeSpeed;             /* Legal fallback */
+  image-rendering:-moz-crisp-edges;          /* Firefox        */
+  image-rendering:-o-crisp-edges;            /* Opera          */
+  image-rendering:-webkit-optimize-contrast; /* Safari         */
+  image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+  image-rendering:crisp-edges;               /* CSS4 Proposed  */
+  image-rendering:pixelated;                 /* CSS4 Proposed  */
+  -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+}
+
+
+	
+	.fixed_sizes {
+	width:512px} 
+	
+	
+@media (max-width: 320px) {
+	.fixed_sizes {
+	width:256px} }
+	
+	
